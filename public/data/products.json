@@ -4,7 +4,7 @@
         "titulo": "Remera Darkness",
         "descripcion": "Descripción de producto A",
         "precio": 1000,
-        "categoria": "Remeras",
+        "categoria": "remeras",
         "imagen": "/img/remera1.jpg"
     },
 
@@ -13,7 +13,7 @@
         "titulo": "Hoodie Bakeneco",
         "descripcion": "Descripción de producto B",
         "precio": 2000,
-        "categoria": "Hoodies",
+        "categoria": "hoodies",
         "imagen": "/img/remera1.jpg"
     },
     {
@@ -21,7 +21,7 @@
         "titulo": "Lentes Supersonic",
         "descripcion": "Descripción de producto C",
         "precio": 3000,
-        "categoria": "Accesorios",
+        "categoria": "accesorios",
         "imagen": "/img/remera1.jpg"
     },
     {
@@ -29,7 +29,7 @@
         "titulo": "Jean Coco",
         "descripcion": "Descripción de producto D",
         "precio": 7000,
-        "categoria": "Pants",
+        "categoria": "pants",
         "imagen": "/img/pant3.jpg"
     },
     
@@ -47,7 +47,7 @@
         "titulo": "Jean dog",
         "descripcion": "Descripción de producto D",
         "precio": 7000,
-        "categoria": "Pants",
+        "categoria": "pants",
         "imagen": "/img/pant2.jpg"
     },
 
@@ -56,7 +56,7 @@
         "titulo": "Jean Gogo",
         "descripcion": "Descripción de producto D",
         "precio": 7000,
-        "categoria": "Pants",
+        "categoria": "pants",
         "imagen": "/img/pant4.jpg"
     },
     {
@@ -64,7 +64,7 @@
         "titulo": "Jean Fugaz",
         "descripcion": "Descripción de producto D",
         "precio": 7000,
-        "categoria": "Pants",
+        "categoria": "pants",
         "imagen": "/img/pant2.jpg"
     }
 

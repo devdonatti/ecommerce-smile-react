@@ -26,11 +26,11 @@ const Navbar = () => {
                     onMouseEnter={toggleMenu}  to="/coleccion"> COLECCIÓN</Link>
                 {menuOpen && (
                     <div className='absolute bg-white shadow-lg rounded mt-2 w-48 py-2 z-10 transition-soft' onMouseLeave={closeMenu} >
-                        <Link to='/categoria/Hoodies' className='block px-4 py-2 text-gray-800 hover:text-gray-500 hover:underline transition-all duration-300 ease-in-out font-helvetica text-sm'>HOODIES</Link>
-                        <Link to='/categoria/Pants' className='block px-4 py-2 text-gray-800 hover:text-gray-500 hover:underline transition-all duration-300 ease-in-out font-helvetica text-sm'>PANTALONES</Link>
-                        <Link to='/categoria/Remeras' className='block px-4 py-2 text-gray-800 hover:text-gray-500 hover:underline transition-all duration-300 ease-in-out font-helvetica text-sm'>REMERAS</Link>
-                        <Link to='/categoria/Camperas' className='block px-4 py-2 text-gray-800 hover:text-gray-500 hover:underline transition-all duration-300 ease-in-out font-helvetica text-sm'>CAMPERAS</Link>
-                        <Link to='/categoria/Accesorios' className='block px-4 py-2 text-gray-800 hover:text-gray-500 hover:underline transition-all duration-300 ease-in-out font-helvetica text-sm'>ACCESORIOS</Link>
+                        <Link to='/categoria/hoodies' className='block px-4 py-2 text-gray-800 hover:text-gray-500 hover:underline transition-all duration-300 ease-in-out font-helvetica text-sm'>HOODIES</Link>
+                        <Link to='/categoria/pants' className='block px-4 py-2 text-gray-800 hover:text-gray-500 hover:underline transition-all duration-300 ease-in-out font-helvetica text-sm'>PANTALONES</Link>
+                        <Link to='/categoria/remeras' className='block px-4 py-2 text-gray-800 hover:text-gray-500 hover:underline transition-all duration-300 ease-in-out font-helvetica text-sm'>REMERAS</Link>
+                        <Link to='/categoria/camperas' className='block px-4 py-2 text-gray-800 hover:text-gray-500 hover:underline transition-all duration-300 ease-in-out font-helvetica text-sm'>CAMPERAS</Link>
+                        <Link to='/categoria/accesorios' className='block px-4 py-2 text-gray-800 hover:text-gray-500 hover:underline transition-all duration-300 ease-in-out font-helvetica text-sm'>ACCESORIOS</Link>
                     </div>
                 )}
             </div>
