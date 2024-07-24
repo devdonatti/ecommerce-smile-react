@@ -5,6 +5,7 @@ import BannerLocales from './BannerLocales'
 
 
 
+
 const Home = () => {
   return (
     <div className=' bg-white '>

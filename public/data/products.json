@@ -1,36 +1,38 @@
 [
     {
         "id": 1,
-        "titulo": "Remera Darkness",
+        "titulo": "HOODIE Bakeneco",
         "descripcion": "Descripción de producto A",
         "precio": 1000,
-        "categoria": "remeras",
-        "imagen": "/img/remera1.jpg"
+        "categoria": "hoodies",
+        "imagen": "/img/hoodie5.1.jpg",
+        "quantity": 1
     },
 
     {
         "id": 2,
-        "titulo": "Hoodie Bakeneco",
+        "titulo": "HOODIE Bakeneco",
         "descripcion": "Descripción de producto B",
         "precio": 2000,
         "categoria": "hoodies",
-        "imagen": "/img/remera1.jpg"
+        "imagen": "/img/hoodie2-1.jpg",
+        "quantity": 1
     },
     {
         "id": 3,
-        "titulo": "Lentes Supersonic",
+        "titulo": "HOODIE YILA",
         "descripcion": "Descripción de producto C",
         "precio": 3000,
-        "categoria": "accesorios",
-        "imagen": "/img/remera1.jpg"
+        "categoria": "hoodies",
+        "imagen": "/img/hoodie3-1.jpg", "quantity": 1
     },
     {
         "id": 4,
-        "titulo": "Jean Coco",
+        "titulo": "HOODIE KIKO",
         "descripcion": "Descripción de producto D",
         "precio": 7000,
-        "categoria": "pants",
-        "imagen": "/img/pant3.jpg"
+        "categoria": "hoodies",
+        "imagen": "/img/hoodie4-1.jpg", "quantity": 1
     },
     
     {
@@ -38,8 +40,8 @@
         "titulo": "Jeans Foxy",
         "descripcion": "Descripción de producto D",
         "precio": 7000,
-        "categoria": "Pants",
-        "imagen": "/img/pant1.jpg"
+        "categoria": "pants",
+        "imagen": "/img/pantalon1.1.jpg", "quantity": 1
     },
 
     {
@@ -48,7 +50,7 @@
         "descripcion": "Descripción de producto D",
         "precio": 7000,
         "categoria": "pants",
-        "imagen": "/img/pant2.jpg"
+        "imagen": "/img/pantalon2.1.jpg", "quantity": 1
     },
 
     {
@@ -57,7 +59,7 @@
         "descripcion": "Descripción de producto D",
         "precio": 7000,
         "categoria": "pants",
-        "imagen": "/img/pant4.jpg"
+        "imagen": "/img/pantalon3.1.jpg", "quantity": 1
     },
     {
         "id": 8,
@@ -65,7 +67,40 @@
         "descripcion": "Descripción de producto D",
         "precio": 7000,
         "categoria": "pants",
-        "imagen": "/img/pant2.jpg"
+        "imagen": "/img/pantalon4.1.jpg", "quantity": 1
+    },
+    {
+        "id": 9,
+        "titulo": "Jean Fugaz",
+        "descripcion": "Descripción de producto D",
+        "precio": 7000,
+        "categoria": "remeras",
+        "imagen": "/img/remera1.1.jpg", "quantity": 1
+    },
+    {
+        "id": 10,
+        "titulo": "Jean Fugaz",
+        "descripcion": "Descripción de producto D",
+        "precio": 7000,
+        "categoria": "remeras",
+        "imagen": "/img/remera2.1.jpg", "quantity": 1
+    },
+    {
+        "id": 11,
+        "titulo": "Jean Fugaz",
+        "descripcion": "Descripción de producto D",
+        "precio": 7000,
+        "categoria": "remeras",
+        "imagen": "/img/remera3.1.jpg", "quantity": 1
+    },
+    {
+        "id": 12,
+        "titulo": "Jean Fugaz",
+        "descripcion": "Descripción de producto D",
+        "precio": 7000,
+        "categoria": "remeras",
+        "imagen": "/img/remera4.1.jpg", "quantity": 1
     }
+
 
 ]

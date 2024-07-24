@@ -1,13 +1,12 @@
-import React, { useState, useEffect,useContext } from 'react';
-import {Link, useParams } from 'react-router-dom';
-
-import { ProductContext } from '../components/context/ProductContext.jsx';
+// CategoriaProductos.js
+import React, { useContext, useEffect, useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
+import { ProductContext } from '../components/context/ProductContext';
 
 const CategoriaProductos = () => {
-  const { categoria } = useParams(); // Obtener el parámetro de la URL
+  const { categoria } = useParams();
   const [products, setProducts] = useState([]);
-  const { setSelectedProduct } = useContext(ProductContext);
-
+  const { selectProductById } = useContext(ProductContext);
 
   useEffect(() => {
     fetch('/data/products.json')
@@ -22,11 +21,6 @@ const CategoriaProductos = () => {
 
   const filteredProducts = products.filter(product => product.categoria === categoria);
 
-  const showProductDetail = (product) => {
-    
-setSelectedProduct(product); // Establecer el producto seleccionado en el contexto
-  };
-
   return (
     <div>
       <h2>Productos de la categoría: {categoria}</h2>
@@ -36,9 +30,8 @@ setSelectedProduct(product); // Establecer el producto seleccionado en el contex
             <img className='w-full transform hover:opacity-75 hover:shadow-lg' src={product.imagen} alt={product.nombre} />
             <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
               <p>{product.titulo}</p>
-             
             </div>
-            <Link to={`/producto/${product.id}`} onClick={() => showProductDetail(product)} className='bg-black font-helvetica mt-3 text-white p-2 tracking-widest'>VER DETALLE</Link>
+            <Link to={`/producto/${product.id}`} onClick={() => selectProductById(product.id)} className='bg-black font-helvetica mt-3 text-white p-2 tracking-widest'>VER DETALLE</Link>
           </div>
         ))}
       </div>
