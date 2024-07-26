@@ -23,13 +23,13 @@ const CategoriaProductos = () => {
 
   return (
     <div>
-      <h2>Productos de la categoría: {categoria}</h2>
+     
       <div className='flex flex-wrap justify-center bg-white p-5'>
         {filteredProducts.map(product => (
           <div key={product.id} className='max-w-xs sm:max-w-sm md:max-w-md lg:max-w-sm rounded overflow-hidden bg-white m-2 mt-8 relative text-center font-helvetica'>
             <img className='w-full transform hover:opacity-75 hover:shadow-lg' src={product.imagen} alt={product.nombre} />
-            <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-              <p>{product.titulo}</p>
+            <div className=' top-1/2 left-1/2 '>
+              <p className=' font-helvetica'>{product.titulo}</p>
             </div>
             <Link to={`/producto/${product.id}`} onClick={() => selectProductById(product.id)} className='bg-black font-helvetica mt-3 text-white p-2 tracking-widest'>VER DETALLE</Link>
           </div>

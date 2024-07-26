@@ -100,7 +100,74 @@
         "precio": 7000,
         "categoria": "remeras",
         "imagen": "/img/remera4.1.jpg", "quantity": 1
+    },
+    {
+        "id": 13,
+        "titulo": "Jean Fugaz",
+        "descripcion": "Descripción de producto D",
+        "precio": 7000,
+        "categoria": "accesorios",
+        "imagen": "/img/accesorios1.1.jpg", "quantity": 1
+    },
+    {
+        "id": 14,
+        "titulo": "Jean Fugaz",
+        "descripcion": "Descripción de producto D",
+        "precio": 7000,
+        "categoria": "accesorios",
+        "imagen": "/img/accesorios1.2.jpg", "quantity": 1
+    },
+    {
+        "id": 15,
+        "titulo": "Jean Fugaz",
+        "descripcion": "Descripción de producto D",
+        "precio": 7000,
+        "categoria": "accesorios",
+        "imagen": "/img/accesorios1.3.jpg", "quantity": 1
+    },
+    {
+        "id": 16,
+        "titulo": "Jean Fugaz",
+        "descripcion": "Descripción de producto D",
+        "precio": 7000,
+        "categoria": "accesorios",
+        "imagen": "/img/accesorios1.4.jpg", "quantity": 1
+    },
+    {
+        "id": 17,
+        "titulo": "Jean Fugaz",
+        "descripcion": "Descripción de producto D",
+        "precio": 7000,
+        "categoria": "camperas",
+        "imagen": "/img/campera1.1.jpg", "quantity": 1
+    },
+    {
+        "id": 18,
+        "titulo": "Jean Fugaz",
+        "descripcion": "Descripción de producto D",
+        "precio": 7000,
+        "categoria": "camperas",
+        "imagen": "/img/campera1.2.jpg", "quantity": 1
+    },
+    {
+        "id": 19,
+        "titulo": "Jean Fugaz",
+        "descripcion": "Descripción de producto D",
+        "precio": 7000,
+        "categoria": "camperas",
+        "imagen": "/img/campera1.3.jpg", "quantity": 1
+    },
+    {
+        "id": 20,
+        "titulo": "Jean Fugaz",
+        "descripcion": "Descripción de producto D",
+        "precio": 7000,
+        "categoria": "camperas",
+        "imagen": "/img/campera1.4.jpg", "quantity": 1
     }
+
+
+
 
 
 ]

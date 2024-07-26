@@ -5,10 +5,10 @@ import './layout.css';
 import Navbar from '../Navbar.jsx';
 import Footer from '../Footer.jsx';
 
-export default function Layout() {
+export default function Layout({user}) {
     return (
         <div className='layout-container'>
-            <Navbar />
+            <Navbar  user={user} />
 
             <main className='content'>
                 <Outlet />

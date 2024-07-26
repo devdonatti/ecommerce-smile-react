@@ -24,13 +24,13 @@ const Carrito = () => {
   };
 
   return (
-    <div>
-      <div>
+    <div className='flex'>
+      <div className='flex'>
         {cart.length === 0 ? (
           <p>El carrito está vacío.</p>
         ) : (
           cart.map(item => (
-            <div key={item.id}>
+            <div className='flex' key={item.id}>
               <img src={item.imagen} alt={item.nombre} style={{ width: '50px', height: '50px' }} />
               <p>{item.titulo}</p>
               <p>Precio: {item.precio}</p>

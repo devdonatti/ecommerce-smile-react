@@ -2,9 +2,10 @@ import React, { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { ProductContext } from '../components/context/ProductContext';
 
-const Navbar = () => {
+const Navbar = ({ user }) => {
   const { cart } = useContext(ProductContext);
   const [menuOpen, setMenuOpen] = useState(false);
+  
 
   // Función para calcular el total de productos en el carrito
   const calcularTotalProductos = () => {
@@ -28,9 +29,8 @@ const Navbar = () => {
       <Link to="/">
         <img className='h-15 w-15' src="/iconos/icononav.png" alt="Logo" />
       </Link>
-      <div className='font-helvetica focus:outline-none tracking-widest text-sm  hover:underline'>
-        <a className=' hover:text-gray-500' href="">NOSOTROS</a>
-      </div>
+      <Link className='font-helvetica focus:outline-none tracking-widest text-sm  hover:underline  hover:text-gray-500'
+      to="/nosotros">NOSOTROS</Link>
       <div className='relative'  >
         <Link className='font-helvetica focus:outline-none tracking-widest text-sm  hover:text-gray-500 hover:underline'
           onMouseEnter={toggleMenu} to="/coleccion"> COLECCIÓN</Link>
@@ -44,14 +44,14 @@ const Navbar = () => {
           </div>
         )}
       </div>
-      <div className='font-helvetica focus:outline-none tracking-widest text-sm  hover:underline'>
-        <a className=' hover:text-gray-500' href="">LOCALES</a>
-      </div>
+      <Link className='font-helvetica focus:outline-none tracking-widest text-sm  hover:underline  hover:text-gray-500'
+      to="/locales">LOCALES</Link>
       <div className='flex gap-2 relative'>
+      {user && <span className="mr-4">Hola, {user}</span>}
         <Link to="/buscar">
           <img style={{ height: '1.5rem', width: '1.5rem' }} src="/iconos/lupita.png" alt="Lupa" />
         </Link>
-        <Link to="/usuario">
+        <Link to="/login">
           <img style={{ height: '1.5rem', width: '1.5rem' }} src="/iconos/user.png" alt="Usuario" />
         </Link>
         <Link to="/carrito" className='relative flex items-center'>
