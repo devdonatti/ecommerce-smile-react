@@ -7,19 +7,15 @@ import { ProductProvider } from './components/context/ProductContext.jsx';
 import DetalleProducto from './components/DetalleProducto.jsx';
 import Carrito from './components/Carrito.jsx'; // Importa el componente Carrito
 import Login from './components/Login.jsx';
-import Nosotros from './components/Nosotros.jsx';
 import Locales from './components/Locales.jsx';
 import { useState } from 'react';
-
 
 function App() {
   const [user,setUser] = useState([]);
 
   return (
-   
       <BrowserRouter>
         <ProductProvider>
-    
         <Routes>
           <Route path="/" element={<Layout user={user}  />}>
           <Route path="/" element={user ? <Home /> : <Login setUser={setUser} />} />
@@ -28,14 +24,11 @@ function App() {
             <Route path="producto/:productId" element={<DetalleProducto />} />
            <Route path="carrito" element={<Carrito />} />
            <Route path='login' element = {<Login setUser={setUser}/>} />
-           <Route path='nosotros' element = {<Nosotros/>} />
            <Route path='locales' element = {<Locales/>} />
-  
           </Route>
         </Routes>
         </ProductProvider>
       </BrowserRouter>
-    
   );
 }
 

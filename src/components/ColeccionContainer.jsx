@@ -30,6 +30,7 @@ const CategoriaProductos = () => {
             <img className='w-full transform hover:opacity-75 hover:shadow-lg' src={product.imagen} alt={product.nombre} />
             <div className=' top-1/2 left-1/2 '>
               <p className=' font-helvetica'>{product.titulo}</p>
+              <p>${product.precio}</p>
             </div>
             <Link to={`/producto/${product.id}`} onClick={() => selectProductById(product.id)} className='bg-black font-helvetica mt-3 text-white p-2 tracking-widest'>VER DETALLE</Link>
           </div>
